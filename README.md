@@ -1,4 +1,5 @@
 # qb-mechanic-updated
+
 NUI for Mechanic Shop
 
 
@@ -14,7 +15,7 @@ Download and extract the file in [qb] Folder.
 
 Step 2:
 
-add this functions in qb-core/client/functions.lua at Bottom
+Add this functions in qb-core/client/functions.lua at Bottom >
 
 <!-- Code Start  -->
 
@@ -44,7 +45,7 @@ end
 <!-- Code End -->
 
 
-How It Works
+How It Works!
 
 You should have mechanic job in order to acces the Menu (You can change the job to allow anyone access the Menu).
 
