@@ -1,8 +1,3 @@
-# qb-mechanic-updated
-
-NUI for Mechanic Shop
-
-
 NUI for Mechanic Shop
 
 # HOW TO INSTALL
@@ -15,7 +10,7 @@ Download and extract the file in [qb] Folder.
 
 Step 2:
 
-Add this functions in qb-core/client/functions.lua at Bottom >
+<! add this functions in qb-core/client/functions.lua at Bottom !>
 
 <!-- Code Start  -->
 
@@ -30,7 +25,6 @@ end
 
 QBCore.Functions.MathGroupDigits = function(value)
     local left,num,right = string.match(value,'^([^%d]*%d)(%d*)(.-)$')
-
     return left..(num:reverse():gsub('(%d%d%d)','%1' .. _U('locale_digit_grouping_symbol')):reverse())..right
 end
 
@@ -45,7 +39,7 @@ end
 <!-- Code End -->
 
 
-How It Works!
+How It Works
 
 You should have mechanic job in order to acces the Menu (You can change the job to allow anyone access the Menu).
 
