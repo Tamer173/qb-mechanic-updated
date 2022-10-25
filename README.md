@@ -14,7 +14,7 @@ Step 2:
 
 <!-- Code Start  -->
 
-QBCore.Functions.MathRound = function(value, numDecimalPlaces)
+`QBCore.Functions.MathRound = function(value, numDecimalPlaces)
     if numDecimalPlaces then
         local power = 10^numDecimalPlaces
         return math.floor((value * power) + 0.5) / (power)
@@ -34,7 +34,7 @@ QBCore.Functions.MathTrim = function(value)
     else
         return nil
     end
-end
+end`
 
 <!-- Code End -->
 
