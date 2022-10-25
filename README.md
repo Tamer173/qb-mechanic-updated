@@ -1,4 +1,4 @@
-NUI for Mechanic Shop
+### NUI for Mechanic Shop
 
 # HOW TO INSTALL
 
@@ -7,14 +7,14 @@ Step 1:
 Download and extract the file in [qb] Folder.
 
 
-
 Step 2:
 
-<! add this functions in qb-core/client/functions.lua at Bottom !>
+<! Add this functions in qb-core/client/functions.lua at Bottom !>
 
 <!-- Code Start  -->
 
-`QBCore.Functions.MathRound = function(value, numDecimalPlaces)
+```
+QBCore.Functions.MathRound = function(value, numDecimalPlaces)
     if numDecimalPlaces then
         local power = 10^numDecimalPlaces
         return math.floor((value * power) + 0.5) / (power)
@@ -34,12 +34,13 @@ QBCore.Functions.MathTrim = function(value)
     else
         return nil
     end
-end`
+end
+```
 
 <!-- Code End -->
 
 
-How It Works
+**How It Works**
 
 You should have mechanic job in order to acces the Menu (You can change the job to allow anyone access the Menu).
 
