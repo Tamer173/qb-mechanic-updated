@@ -1,5 +1,9 @@
 ### NUI for Mechanic Shop
 
+Dependency
+
+[**Mythic Progress Bar**](https://github.com/HalCroves/mythic_progbar)
+
 # HOW TO INSTALL
 
 Step 1:
